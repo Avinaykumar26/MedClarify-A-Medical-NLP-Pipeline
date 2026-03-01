@@ -3,7 +3,7 @@ import base64
 import requests
 
 # --- CONFIGURATION ---
-GITHUB_TOKEN = "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"  # Put your token here
+GITHUB_TOKEN = " "  # Put your token here
 GITHUB_REPO = "Avinaykumar26/Medical-Abbreviation-Expander"  # Format: "username/repo"
 BRANCH = "main"
 
@@ -55,3 +55,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
