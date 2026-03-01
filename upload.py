@@ -3,7 +3,7 @@ import base64
 import requests
 
 # --- CONFIGURATION ---
-GITHUB_TOKEN = " "  # Put your token here
+GITHUB_TOKEN = "put ur git token here"  # Put your token here
 GITHUB_REPO = "Avinaykumar26/Medical-Abbreviation-Expander"  # Format: "username/repo"
 BRANCH = "main"
 
@@ -55,4 +55,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
