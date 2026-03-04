@@ -17,7 +17,7 @@ from app.utils import find_abbreviations, highlight_expansions
 
 # --- Page Config & Styling ---
 st.set_page_config(
-    page_title="Medical Abbreviation Expander",
+    page_title="MedClarify: A Medical NLP Pipeline",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -85,7 +85,7 @@ if use_embeddings:
         disamb = get_disambiguator()
 
 # --- Main UI ---
-st.title("🧠 Medical Abbreviation Expander + Evaluator")
+st.title("🧠 MedClarify: A Medical NLP Pipeline")
 st.markdown("---")
 
 col_a, col_b = st.columns([1, 1])
