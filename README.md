@@ -1,6 +1,6 @@
-# 🧠 Medical Abbreviation Expander
+# 🧠 MedClarify: A Medical NLP Pipeline
 
-> **A Smart NLP Tool to Decode and Analyze Medical Abbreviations in Clinical Text**
+> **A Smart AI-Powered Tool to Decode and Analyze Medical Abbreviations in Clinical Text**
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.25-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -20,10 +20,8 @@
 - ( Copy past this link in browser and insert the prompt from - [Demo](#-demo) and view/use the app )
 
 ---
-
 ## 📋 Table of Contents
 
-- [Author](#-author)
 - [Overview](#overview)
 - [Features](#-features)
 - [Demo](#-demo)
@@ -36,13 +34,14 @@
 - [Data Files](#-data-files)
 - [Testing](#-testing)
 - [Contributing](#-contributing)
+- [Author](#-author)
 - [License](#-license)
 
 ---
 
 ## Overview
 
-The **Medical Abbreviation Expander** is an AI-powered Streamlit application that automatically detects and expands medical abbreviations found in clinical text. It is designed to improve readability and reduce ambiguity in medical notes, discharge summaries, and other healthcare documents.
+The **MedClarify** is an AI-powered Streamlit application that automatically detects and expands medical abbreviations found in clinical text. It is designed to improve readability and reduce ambiguity in medical notes, discharge summaries, and other healthcare documents.
 
 The tool supports two modes of operation:
 
@@ -79,7 +78,7 @@ Pt c/o SOB and elevated BP. Hx of HTN and DM. Echo shows RA enlargement.
 Rx: ACE inhibitor.
 ```
 
-The app will :
+The app will:
 1. Detect abbreviations: `SOB`, `BP`, `HTN`, `DM`, `RA`
 2. Expand each one with confidence scores
 3. Display annotated text with inline expansions
@@ -104,7 +103,7 @@ The app will :
 ## 📁 Project Structure
 
 ```
-Medical-Abbreviation-Expander/
+MedClarify/
 │
 ├── app/
 │   ├── main.py                    # Streamlit main app + evaluation dashboard
@@ -112,7 +111,7 @@ Medical-Abbreviation-Expander/
 │
 ├── models/
 │   ├── resolver.py                # Rule-based abbreviation resolver (CSV lookup)
-│   └── embed_disambiguator.py     # Embedding model for contextual disambiguation 
+│   └── embed_disambiguator.py     # Embedding model for contextual disambiguation
 │
 ├── data/
 │   ├── abbreviations.csv          # Base abbreviation dictionary (abbr → expansion)
@@ -228,7 +227,7 @@ The easiest way to host this app for free is via **[Streamlit Community Cloud](h
 3. Click **New app**, then select your repository, branch, and main file path: `app/main.py`.
 4. Click **Deploy!**
 
-> **Note:** Streamlit Cloud will automatically detect `requirements.txt` and install all dependencies. First-time deployment may take 2-3 minutes as it downloads the embedding models .
+> **Note:** Streamlit Cloud will automatically detect `requirements.txt` and install all dependencies. First-time deployment may take 2-3 minutes as it downloads the embedding models.
 
 ---
 
@@ -238,10 +237,10 @@ The easiest way to host this app for free is via **[Streamlit Community Cloud](h
 
 The app automatically evaluates predictions against `data/ground_truth.csv` after each expansion run. It displays:
 
-- **Precision** — Fraction of correctly expanded abbreviations 
+- **Precision** — Fraction of correctly expanded abbreviations
 - **Accuracy** — Overall correctness score
 - **Bar Chart** — Correct vs. Incorrect predictions (color-coded)
-- **Trend Chart** — Precision & Accuracy over time across multiple runs 
+- **Trend Chart** — Precision & Accuracy over time across multiple runs
 
 ### Jupyter Notebooks
 
@@ -281,7 +280,7 @@ PRN,As Needed,medication frequency
 For ambiguous abbreviations with multiple meanings, separate expansions with `|`:
 
 ```csv
-MS,Multiple Sclerosis|Mitral Stenosis,ambiguous 
+MS,Multiple Sclerosis|Mitral Stenosis,ambiguous
 ```
 
 ---
@@ -317,10 +316,9 @@ Contributions are welcome! Here's how to get started:
 - 🌐 Add multilingual abbreviation support
 - 🧠 Integrate a biomedical language model (e.g., BioBERT, PubMedBERT)
 - 📊 Add more evaluation metrics (F1-score, recall)
-- 🎨 Improve the Streamlit UI/UX 
+- 🎨 Improve the Streamlit UI/UX
 
 ---
-
 
 ## 📄 License
 
