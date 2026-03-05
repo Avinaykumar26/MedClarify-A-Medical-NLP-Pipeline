@@ -168,7 +168,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-> **Note:** On first run with embeddings enabled, the `all-MiniLM-L6-v2` model (~80 MB) will be automatically downloaded.
+> **Note:** On first run with embeddings enabled, the `all-MiniLM-L6-v2` model (~80 MB) will be automatically downloaded .
 
 ---
 
