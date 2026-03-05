@@ -41,7 +41,7 @@
 
 ## Overview
 
-The **MedClarify** is an AI-powered Streamlit application that automatically detects and expands medical abbreviations found in clinical text. It is designed to improve readability and reduce ambiguity in medical notes, discharge summaries, and other healthcare documents.
+The **MedClarify** is an AI-powered Streamlit application that automatically detects and expands medical abbreviations found in clinical text. It is designed to improve readability and reduce ambiguity in medical notes, discharge summaries, and other healthcare documents .
 
 The tool supports two modes of operation:
 
