@@ -65,7 +65,7 @@ Additionally, the app includes a built-in **Evaluation Dashboard** with Precisio
 - 📁 **Analytics Logging** — Auto-saves every analysis run to `data/analysis_data.csv`
 - 📎 **File Upload Support** — Upload `.txt` files directly into the app
 - 🐳 **Docker Ready** — Includes a `Dockerfile` for one-command containerized deployment
-- 🧪 **Unit Tests** — Pytest-based test suite for the resolver module
+- 🧪 **Unit Tests** — Pytest-based test suite for the resolver module 
 
 ---
 
