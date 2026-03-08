@@ -18,6 +18,7 @@
 - LinkedIn : www.linkedin.com/in/a-vinay-kumar-xyz
 - Working link :- https://medical-abbreviation-expander-projwila.streamlit.app/
 - ( Copy past this link in browser and insert the prompt from - [Demo](#-demo) and view/use the app )
+- it may take some up to 1-1.5 min to load the page .
 
 ---
 ## 📋 Table of Contents
